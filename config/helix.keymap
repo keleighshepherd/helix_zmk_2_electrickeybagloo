@@ -29,14 +29,14 @@ As such, those are in use within the default layer at this time.*/
   // |  ESC   |   1    |   2    |   3    |   4    |   5 (mt f5)|                             |   6    |   7    |   8    |   9    |   0    |  DEL   |
   // |  TAB   |   Q    |   W    |   E    |   R    |   T    |                                 |   Y    |   U    |   I    |   O    |   P    |  BSPC  |
   // |  CAPS  |   A    |   S    |   D    |   F    |   G    |                                 |   H    |   J    |   K    |   L    |   ;    |   '    |
-  // |  SHIFT |   Z    |   X    |   C    |   V    |   B    |  MINUS |               |  PLUS  |   N    |   M    |   ,    |   .    |   /    |  SHIFT |
-  // |  CTRL  |  WIN   |  ALT   |  BLSH  | LOWER  | SPACE  |   RET  |               |  RET   | SPACE  |  HOME  |  END   |  LBKT  |  RBKT  |  CTRL |
+  // |  SHIFT |   Z    |   X    |   C    |   V    |   B    |   RET  |               |  CTRL  |   N    |   M    |   ,    |   .    |   /    |  SHIFT |
+  // |  CTRL  |  WIN   |  ALT   |  BLSH  | SPACE  | LOWER  |  MINUS |               |  PLUS  |  HOME  | SPACE  |  END   |  LBKT  |  RBKT  |  RET |
                      bindings = <
        &kp ESC  &kp N1  &kp N2   &kp N3   &kp N4    &mt F5 N5                               &kp N6    &kp N7    &kp N8    &kp N9     &kp N0    &kp DEL
        &kp TAB    &kp Q   &kp W    &kp E    &kp R     &kp T                                &kp Y     &kp U     &kp I     &kp O      &kp P     &kp BSPC
        &kp CAPS  &kp A   &kp S    &kp D    &kp F     &kp G                                &kp H     &kp J     &kp K     &kp L      &kp SEMI  &kp SQT
-       &kp LSHFT  &kp Z  &kp X    &kp C    &kp V     &kp B     &kp MINUS         &kp PLUS  &kp N     &kp M     &kp COMMA &kp PERIOD &kp SLASH &kp RSHFT
-       &kp LCTRL &kp LGUI &kp LALT &kp BACKSLASH &mo LOWER &kp SPACE &kp RET        &kp RET &kp SPACE &kp HOME &kp END  &kp LBKT   &kp RBKT    &kp RCTRL
+       &kp LSHFT  &kp Z  &kp X    &kp C    &kp V     &kp B     &kp RET         &kp RCTRL  &kp N     &kp M     &kp COMMA &kp PERIOD &kp SLASH &kp RSHFT
+       &kp LCTRL &kp LGUI &kp LALT &kp BACKSLASH &kp SPACE &mo LOWER &kp MINUS        &kp PLUS &kp HOME &kp SPACE &kp END  &kp LBKT   &kp RBKT    &kp RET
                      >;
               };
               lower_layer {
