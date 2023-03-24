@@ -26,17 +26,17 @@ As such, those are in use within the default layer at this time.*/
 
               default_layer {
   // ---------------------------------------------------------------------------------------------------------------------------------
-  // |  ESC   |   1    |   2    |   3    |   4    |   5 (mt f5)|                             |   6    |   7    |   8    |   9    |   0    |  DEL   |
-  // |  TAB   |   Q    |   W    |   E    |   R    |   T    |                                 |   Y    |   U    |   I    |   O    |   P    |  BSPC  |
-  // |  CAPS  |   A    |   S    |   D    |   F    |   G    |                                 |   H    |   J    |   K    |   L    |   ;    |   '    |
-  // |  SHIFT |   Z    |   X    |   C    |   V    |   B    |   RET  |               |  CTRL  |   N    |   M    |   ,    |   .    |   /    |  SHIFT |
-  // |  CTRL  |  WIN   |  ALT   |  BLSH  | SPACE  | LOWER  |  MINUS |               |  PLUS  |  HOME  | SPACE  |  END   |  LBKT  |  RBKT  |  RET |
+  // |  LBKT  | &trans |   Q    |   W    |   E    |   R    |                                 |   R    |   T    |   Y    |   U    | &trans |  LBKT  |
+  // |  LSHFT | $trans | $trans |   I    |   O    | LSHFT  |                                 | LSHFT  |   P    |   ]    | $trans | $trans |  LSHFT |
+  // | $trans | $trans | $trans | $trans | $trans |   #    |                                 |   #    | $trans | $trans | $trans | $trans | $trans |
+  // |   X    |   Z    |   L    |   K    |   J    | $trans |    A   |               |    A   | $trans |   S    |   D    |   F    |   G    |   H    |
+  // |   C    |   V    |   B    |   M    |   M    | $trans | $trans |               | $trans | $trans |   ,    |   .    |   /    |   ;    |   '    |
                      bindings = <
-       &kp ESC  &kp N1  &kp N2   &kp N3   &kp N4    &mt F5 N5                               &kp N6    &kp N7    &kp N8    &kp N9     &kp N0    &kp DEL
-       &kp TAB    &kp Q   &kp W    &kp E    &kp R     &kp T                                &kp Y     &kp U     &kp I     &kp O      &kp P     &kp BSPC
-       &kp CAPS  &kp A   &kp S    &kp D    &kp F     &kp G                                &kp H     &kp J     &kp K     &kp L      &kp SEMI  &kp SQT
-       &kp LSHFT  &kp Z  &kp X    &kp C    &kp V     &kp B     &kp RET         &kp RCTRL  &kp N     &kp M     &kp COMMA &kp PERIOD &kp SLASH &kp RSHFT
-       &kp LCTRL &kp LGUI &kp LALT &kp BACKSLASH &kp SPACE &mo LOWER &kp MINUS        &kp PLUS &kp HOME &kp SPACE &kp END  &kp LBKT   &kp RBKT    &kp RET
+       &kp LBKT  &trans  &kp Q    &kp W     &kp E    &kp R                                      &kp R    &kp T    &kp Y    &kp U   &trans  &kp LBKT
+       &kp LSHFT $trans  $trans   &kp I     &kp O  &kp LSHFT                                  &kp LSHFT  &kp P   &kp RBKT  $trans  $trans  &kp LSHFT
+        $trans   $trans  $trans   $trans   $trans  &kp HASH                                   &kp HASH  $trans   $trans    $trans  $trans   $trans
+       &kp X    &kp Z    &kp L    &kp K    &kp J    $trans    &kp A                   &kp A     $trans   &kp S    &kp D    &kp F   &kp G   &kp H
+       &kp C    &kp V    &kp L    &kp M    &kp M   $trans    $trans                  $trans     $trans &kp COMMA &kp PERIOD &kp FSLH &kp SEMi &kp SQT
                      >;
               };
               lower_layer {
