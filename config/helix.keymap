@@ -26,17 +26,17 @@ As such, those are in use within the default layer at this time.*/
 
               default_layer {
   // ---------------------------------------------------------------------------------------------------------------------------------
-  // |  LBKT  | &trans |   Q    |   W    |   E    |   R    |                                 |   R    |   T    |   Y    |   U    | &trans |  LBKT  |
+  // |  LBKT  | &trans |   Q    |   W    |   E    |   R    |                                 |   R    |   E    |   Y    |   U    | &trans |  LBKT  |
   // |  LSHFT | $trans | $trans |   I    |   O    | LSHFT  |                                 | LSHFT  |   P    |   ]    | $trans | $trans |  LSHFT |
   // | $trans | $trans | $trans | $trans | $trans |   #    |                                 |   #    | $trans | $trans | $trans | $trans | $trans |
   // |   X    |   Z    |   L    |   K    |   J    | $trans |    A   |               |    A   | $trans |   S    |   D    |   F    |   G    |   H    |
-  // |   C    |   V    |   B    |   M    |   M    | $trans | $trans |               | $trans | $trans |   ,    |   .    |   /    |   ;    |   '    |
+  // |   C    |   V    |   B    |   M    |   N    | $trans | $trans |               | $trans | $trans |   ,    |   .    |   /    |   ;    |   '    |
                      bindings = <
-       &kp LBKT  &trans  &kp Q    &kp W     &kp E    &kp R                                      &kp R    &kp T    &kp Y    &kp U   &trans  &kp LBKT
+       &kp LBKT  &trans  &kp Q    &kp W     &kp E    &kp R                                      &kp R    &kp E    &kp Y    &kp U   &trans  &kp LBKT
        &kp LSHFT $trans  $trans   &kp I     &kp O  &kp LSHFT                                  &kp LSHFT  &kp P   &kp RBKT  $trans  $trans  &kp LSHFT
         $trans   $trans  $trans   $trans   $trans  &kp HASH                                   &kp HASH  $trans   $trans    $trans  $trans   $trans
        &kp X    &kp Z    &kp L    &kp K    &kp J    $trans    &kp A                   &kp A     $trans   &kp S    &kp D    &kp F   &kp G   &kp H
-       &kp C    &kp V    &kp L    &kp M    &kp M   $trans    $trans                  $trans     $trans &kp COMMA &kp PERIOD &kp FSLH &kp SEMi &kp SQT
+       &kp C    &kp V    &kp L    &kp M    &kp M   $trans    $trans                  $trans     $trans &kp COMMA &kp PERIOD &kp FSLH &kp SEMI &kp SQT
                      >;
               };
               lower_layer {
